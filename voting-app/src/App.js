@@ -21,6 +21,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         //Main hoon baap coder
+        //Main hoon bapp tera
+        //hello
         <Route path="/login" element={<LoginPage />} />
         <Route path="/fingerprint" element={<FingerprintScan />} />
         <Route path="/vote" element={<VoteSelection />} />
