@@ -14,21 +14,16 @@ import VoteSelection from './components/VoteSelection';
 function App() {
   return (
     <Router>
-     
       <Navbar />
 
-     
+      
       <Routes>
         <Route path="/" element={<Home />} />
-        //Main hoon baap coder
-        //Main hoon bapp tera
-        //hello
         <Route path="/login" element={<LoginPage />} />
         <Route path="/fingerprint" element={<FingerprintScan />} />
         <Route path="/vote" element={<VoteSelection />} />
-      <Route path="/states" element={<States />} />
-      //Hello
-      <Route path="/villages" element={<Villages />} />
+        <Route path="/states" element={<States />} />
+        <Route path="/villages" element={<Villages />} />
       </Routes>
 
    
